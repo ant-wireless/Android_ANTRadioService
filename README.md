@@ -15,6 +15,7 @@ Changelog
 * Fix service to be visible on Play Store for phones without bluetooth again
 * Fix null pointer crash in ChannelCloseController.onChannelMessage() when adapter changes state
 * Fix burst function to return earlier when channel drops to search instead of waiting the full search timeout period
+* Fix required and desired capabilities to work again when requesting channels (was broken since 4.4.0)
 
 <b><u>Android_ANTRadioService_4-6-0 (Changes since 4.5.0.RC3) - 5 Aug 2014:</u></b>
 
