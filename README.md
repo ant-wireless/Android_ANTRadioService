@@ -1,4 +1,4 @@
-ANT Radio Service 4.6.0
+ANT Radio Service 4.7.0
 ===============
 
 This repository currently only contains the prebuilt (.apk) version of the ANT Radio Service for Android. The ANT Radio Service allows apps to communicate with ANT wireless hardware built in to phones or external adapters such as an ANT USB stick.
@@ -10,14 +10,19 @@ For details on adding this to the Android platform source see https://github.com
 
 Changelog
 ==============
+<b><u>Android_ANTRadioService_4-7-0 (Changes since 4.6.0) - 8 Aug 2014:</u></b>
+
+* Fix service to be visible on Play Store for phones without bluetooth again
+* Fix null pointer crash in ChannelCloseController.onChannelMessage() when adapter changes state
+* Fix burst function to return earlier when channel drops to search instead of waiting the full search timeout period
+
 <b><u>Android_ANTRadioService_4-6-0 (Changes since 4.5.0.RC3) - 5 Aug 2014:</u></b>
 
-* Added better logging for serial message length failures
-* Add bluetooth permissions as required (as per Google's suggestion since some adapters require interaction with bluetooth stack)
-* Fix channel not being made available if a task failed in the cleanup after it was released
 * Add advanced burst support
+* Fix channel not being made available if a task failed in the cleanup after it was released
+* Add bluetooth permissions to mainfest(as per Google's suggestion since some adapters require interaction with bluetooth stack)
 * Added handling of an error where the closed channel event is not received after a search timeout on some old firmware, such as in the Xperia Ray
-* Remove some unnecessary logging
+* Added better logging for serial message length failures
 
 <b><u>Android_ANTRadioService_4-5-0_RC3 (Changes since 4.02.00):</u></b>
 
