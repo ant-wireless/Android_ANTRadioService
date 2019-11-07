@@ -1,4 +1,4 @@
-ANT Radio Service 4.15.0 - 31 Oct 2018
+ANT Radio Service 4.15.20 - 06 Nov 2019
 ======================================
 This repo mirrors the apk hosted on the Google Play Store. Branches may also be used for release candidate notifications or beta testing.
 Detailed description at https://play.google.com/store/apps/details?id=com.dsi.ant.service.socket
